@@ -1,0 +1,8 @@
+PS C:\Users\Ismail Hasan\Documents\terminal> hostname
+IHSAN
+PS C:\Users\Ismail Hasan\Documents\terminal>                                                     
+PS C:\Users\Ismail Hasan\Documents\terminal> cd                                                 
+PS C:\Users\Ismail Hasan\Documents\terminal> cd ..
+PS C:\Users\Ismail Hasan\Documents> cd ..
+PS C:\Users\Ismail Hasan> cd Desktop
+PS C:\Users\Ismail Hasan\Desktop> 
