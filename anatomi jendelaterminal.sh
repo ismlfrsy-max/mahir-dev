@@ -346,3 +346,241 @@ NAMA-KOMPUTER-WINDOWS            REM Ini output dari perintah 'hostname'
 C:\Users\NamaPengguna>cd Desktop REM Perintah baru
 C:\Users\NamaPengguna\Desktop>_  REM Prompt berubah nunjukin direktori baru, siap lagi
 PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> echo. > README.md
+echo. : The term 'echo.' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the n
+At line:1 char:1
++ echo. > README.md
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (echo.:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> dir
+
+
+    Directory: C:\Users\Ismail Hasan\Documents\terminal
+
+Mode                 LastWriteTime         Length Name                                                                                     
+----                 -------------         ------ ----                                                                                     
+d-----        05/08/2026     20.58                DataRahasia                                                                              
+-a----        03/08/2026     21.13           3187 anatomi jendelaterminal.sh                                                               
+-a----        03/08/2026     21.07              0 file terminal                                                                            
+-a----        05/08/2026     20.59              0 index.html                                                                               
+-a----        03/08/2026     21.11              0 navigasifolderditerminal.sh                                                              
+-a----        03/08/2026     21.22            426 notes.txt                                                                                
+-a----        03/08/2026     21.21            285 rem-sample.sh                                                                            
+-a----        05/08/2026     21.01              0 style.html                                                                               
+
+
+PS C:\Users\Ismail Hasan\Documents\terminal> New-Item -ItemType File skrip.js
+
+
+    Directory: C:\Users\Ismail Hasan\Documents\terminal
+
+
+Mode                 LastWriteTime         Length Name                                                                                     
+----                 -------------         ------ ----                                                                                     
+-a----        05/08/2026     21.02              0 skrip.js                                                                                 
+
+
+PS C:\Users\Ismail Hasan\Documents\terminal> cat rem-sample.sh
+C:\Users\NamaPengguna>hostname   REM Ini perintah yang diketik, 'hostname'
+NAMA-KOMPUTER-WINDOWS            REM Ini output dari perintah 'hostname'
+C:\Users\NamaPengguna>cd Desktop REM Perintah baru
+C:\Users\NamaPengguna\Desktop>_  REM Prompt berubah nunjukin direktori baru, siap lagi
+PS C:\Users\Ismail Hasan\Documents\ter
+ *  History restored 
+
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+ *  History restored 
+PS C:\Users\Ismail Hasan\Documents\terminal> copy <file terminal> <DataRahasia>                 
+At line:1 char:6
++ copy <file terminal> <DataRahasia>
++      ~
+The '<' operator is reserved for future use.
+At line:1 char:22
++ copy <file terminal> <DataRahasia>
++                      ~
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+PS C:\Users\Ismail Hasan\Documents\terminal> copy <rem-semple.sh> <DataRahasia>
+At line:1 char:6
++ copy <rem-semple.sh> <DataRahasia>
++      ~
+The '<' operator is reserved for future use.
+At line:1 char:22
++ copy <rem-semple.sh> <DataRahasia>
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> copy <rem-semple.sh> <DataRahasia>
+At line:1 char:6
++ copy <rem-semple.sh> <DataRahasia>
+The '<' operator is reserved for future use.
+At line:1 char:22
++ copy <rem-semple.sh> <DataRahasia>
++                      ~
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+Remove-Item : A positional parameter cannot be found that accepts argument 'index.html'.
+At line:1 char:1
++ del /p index.html
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> y
+ included, verify that the path is correct and try again.
+At line:1 char:1
++ y
++ ~
+    + CategoryInfo          : ObjectNotFound: (y:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+At line:1 char:1
++ rd LaporanBulanan
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Ismail...\LaporanBulanan:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> cat notes.txt
+IHSAN
+PS C:\Users\Ismail Hasan\Documents\terminal>                                                     
+PS C:\Users\Ismail Hasan\Documents\terminal> cd                                                 
+PS C:\Users\Ismail Hasan\Documents\terminal> cd ..
+PS C:\Users\Ismail Hasan\Documents> cd ..
+PS C:\Users\Ismail Hasan> cd Desktop
+PS C:\Users\Ismail Hasan\Desktop> 
+PS C:\Users\Ismail Hasan\Documents\terminal> rm -i index.html      
+
+cmdlet Remove-Item at command pipeline position 1
+Supply values for the following parameters:
+Path[0]: y
+Path[1]: y
+Path[2]: y
+Path[3]:  
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> rmdir LaporanBulanan
+rmdir : Cannot find path 'C:\Users\Ismail Hasan\Documents\terminal\LaporanBulanan' because it does not exist.
++ rmdir LaporanBulanan
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Ismail...\LaporanBulanan:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> history
+
+  Id CommandLine                                                                                                                                        
+  -- -----------                                                                                                                                        
+   1 try { . "c:\Users\Ismail Hasan\AppData\Local\Programs\Microsoft VS Code\e4c7e7b1d6\resources\app\out\vs\workbench\contrib\terminal\common\script...
+   2 copy <file terminal> <DataRahasia>                                                                                                                 
+   3 copy <rem-semple.sh> <DataRahasia>                                                                                                                 
+   4 copy <rem-semple.sh> <DataRahasia>                                                                                                                 
+   5 copy rem-semple.sh DataRahasia                                                                                                                     
+   6 del <index.html>                                                                                                                                   
+   7 rm <index.html>                                                                                                                                    
+   8 del /p index.html                                                                                                                                  
+   9 y                                                                                                                                                  
+  10 rd LaporanBulanan                                                                                                                                  
+  11 cat notes.txt                                                                                                                                      
+  12 rm -i index.html                                                                                                                                   
+  13 rmdir LaporanBulanan                                                                                                                               
+
+
+PS C:\Users\Ismail Hasan\Documents\terminal> man ls
+                                                                                                                                                        
+NAME
+    Get-ChildItem
+    
+SYNTAX
+    Get-ChildItem [[-Path] <string[]>] [[-Filter] <string>] [-Include <string[]>] [-Exclude <string[]>] [-Recurse] [-Depth <uint32>] [-Force] [-Name] [-
+    ssed | Offline | NotContentIndexed | Encrypted | IntegrityStream | NoScrubData}] [-FollowSymlink] [-Directory] [-File] [-Hidden] [-ReadOnly] [-Syste
+    m]  [<CommonParameters>]
+    
+
+ALIASES
+    gci
+    ls
+    dir
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-ChildItem -Online" or                                                     
+           go to https://go.microsoft.com/fwlink/?LinkID=113308.                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> man cp
+                                                                                                                                                        
+NAME
+    Copy-Item
+    
+    Copy-Item [[-Destination] <string>] -LiteralPath <string[]> [-Container] [-Force] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-R
+    ecurse] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-UseTransaction] [-FromSession <PSSession>] [-ToSession <PSSession>]  [<Commo
+    nParameters>]
+    
+
+ALIASES
+    cpi
+    cp
+    copy
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Copy-Item -Online" or 
+           go to https://go.microsoft.com/fwlink/?LinkID=113292.
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal>                          
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+   
