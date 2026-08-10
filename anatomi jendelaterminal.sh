@@ -583,4 +583,115 @@ PS C:\Users\Ismail Hasan\Documents\terminal>
 PS C:\Users\Ismail Hasan\Documents\terminal> 
 PS C:\Users\Ismail Hasan\Documents\terminal> 
 PS C:\Users\Ismail Hasan\Documents\terminal> 
+y] [-File] [-Hidden] [-ReadOnly] [-Syste
+    m]  [<CommonParameters>]
+    
+
+ALIASES
+    gci
+    ls
+    dir
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-ChildItem -Online" or                                                     
+           go to https://go.microsoft.com/fwlink/?LinkID=113308.                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> man cp
+                                                                                                                                                        
+NAME
+    Copy-Item
+    
+    Copy-Item [[-Destination] <string>] -LiteralPath <string[]> [-Container] [-Force] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-R
+    ecurse] [-PassThru] [-Credential <pscredential>] [-WhatIf] [-Confirm] [-UseTransaction] [-FromSession <PSSession>] [-ToSession <PSSession>]  [<Commo
+    nParameters>]
+    
+
+ALIASES
+    cpi
+    cp
+    copy
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Copy-Item -Online" or 
+           go to https://go.microsoft.com/fwlink/?LinkID=113292.
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal>                          
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+ *  History restored 
    
+ *  History restored san\Documents\terminal> 
+
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+ *  History restored 
+
+PS C:\Users\Ismail Hasan\Documents\terminal> nama="Budi"
+nama=Budi : The term 'nama=Budi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+ a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nama="Budi"
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (nama=Budi:String) [], CommandNotFoundException
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> echo "Halo dari Terminal!"
+Halo dari Terminal!
+PS C:\Users\Ismail Hasan\Documents\terminal> nama="Budi"
+nama=Budi : The term 'nama=Budi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+ a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nama="Budi"
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (nama=Budi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> echo "Nama saya adalah $nama"
+Nama saya adalah 
+PS C:\Users\Ismail Hasan\Documents\terminal> nama="Budi" echo "Nama saya adalah $nama"
+nama=Budi : The term 'nama=Budi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if
+ a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nama="Budi" echo "Nama saya adalah $nama"
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (nama=Budi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Ismail Hasan\Documents\terminal> echo "Nama saya adalah $nama" nama="Budi"
+Nama saya adalah 
+nama=Budi
+PS C:\Users\Ismail Hasan\Documents\terminal> 
+
+
+
+
+
